@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C84F82E15E468E5007C7AA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C84F82D15E468E5007C7AA3 /* UIKit.framework */; };
+		8C84F83015E468E5007C7AA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C84F82F15E468E5007C7AA3 /* Foundation.framework */; };
+		8C84F83215E468E5007C7AA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C84F83115E468E5007C7AA3 /* CoreGraphics.framework */; };
+		8C84F83815E468E5007C7AA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F83615E468E5007C7AA3 /* InfoPlist.strings */; };
+		8C84F83A15E468E5007C7AA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C84F83915E468E5007C7AA3 /* main.m */; };
+		8C84F83E15E468E6007C7AA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C84F83D15E468E6007C7AA3 /* AppDelegate.m */; };
+		8C84F84115E468E6007C7AA3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C84F84015E468E6007C7AA3 /* FirstViewController.m */; };
+		8C84F84315E468E6007C7AA3 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F84215E468E6007C7AA3 /* first.png */; };
+		8C84F84515E468E6007C7AA3 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F84415E468E6007C7AA3 /* first@2x.png */; };
+		8C84F84815E468E6007C7AA3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C84F84715E468E6007C7AA3 /* SecondViewController.m */; };
+		8C84F84A15E468E6007C7AA3 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F84915E468E6007C7AA3 /* second.png */; };
+		8C84F84C15E468E6007C7AA3 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F84B15E468E6007C7AA3 /* second@2x.png */; };
+		8C84F84F15E468E6007C7AA3 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F84D15E468E6007C7AA3 /* FirstViewController.xib */; };
+		8C84F85215E468E6007C7AA3 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F85015E468E6007C7AA3 /* SecondViewController.xib */; };
+		8C84F85A15E468E7007C7AA3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C84F85915E468E7007C7AA3 /* SenTestingKit.framework */; };
+		8C84F85B15E468E7007C7AA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C84F82D15E468E5007C7AA3 /* UIKit.framework */; };
+		8C84F85C15E468E7007C7AA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C84F82F15E468E5007C7AA3 /* Foundation.framework */; };
+		8C84F86415E468E7007C7AA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F86215E468E7007C7AA3 /* InfoPlist.strings */; };
+		8C84F86715E468E7007C7AA3 /* PsychTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C84F86615E468E7007C7AA3 /* PsychTestAppTests.m */; };
+		8C84F87715E46ABB007C7AA3 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C84F87515E46ABB007C7AA3 /* ThirdViewController.m */; };
+		8C84F87815E46ABB007C7AA3 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F87615E46ABB007C7AA3 /* ThirdViewController.xib */; };
+		8C84F87E15E4AA6C007C7AA3 /* 09-chat-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F87C15E4AA6C007C7AA3 /* 09-chat-2.png */; };
+		8C84F88615E54BDE007C7AA3 /* TestWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F88515E54BDD007C7AA3 /* TestWindow.xib */; };
+		8C84F88D15E55FC7007C7AA3 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F88B15E55FC7007C7AA3 /* Settings.png */; };
+		8C84F89015E56168007C7AA3 /* Wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F88F15E56168007C7AA3 /* Wallpaper.png */; };
+		8C84F89215E56280007C7AA3 /* Text.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F89115E5627F007C7AA3 /* Text.png */; };
+		8C84F89415E56417007C7AA3 /* Text114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F89315E56416007C7AA3 /* Text114.png */; };
+		8C84F89615E56421007C7AA3 /* Text114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C84F89515E56421007C7AA3 /* Text114.png */; };
+		8CE4CB5E15E58631008D342A /* 162-receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE4CB5D15E58631008D342A /* 162-receipt.png */; };
+		8CE4CB6115E58643008D342A /* 08-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE4CB6015E58643008D342A /* 08-chat.png */; };
+		8CE4CB6315E58664008D342A /* 158-wrench-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE4CB6215E58664008D342A /* 158-wrench-2.png */; };
+		8CE4CB6515E5868C008D342A /* Text.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE4CB6415E5868C008D342A /* Text.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C84F85D15E468E7007C7AA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C84F82015E468E5007C7AA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C84F82815E468E5007C7AA3;
+			remoteInfo = PsychTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C84F82915E468E5007C7AA3 /* Psych!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Psych!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C84F82D15E468E5007C7AA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C84F82F15E468E5007C7AA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C84F83115E468E5007C7AA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C84F83515E468E5007C7AA3 /* Psych!-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Psych!-Info.plist"; sourceTree = "<group>"; };
+		8C84F83715E468E5007C7AA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C84F83915E468E5007C7AA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C84F83B15E468E6007C7AA3 /* Psych!-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Psych!-Prefix.pch"; sourceTree = "<group>"; };
+		8C84F83C15E468E6007C7AA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C84F83D15E468E6007C7AA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C84F83F15E468E6007C7AA3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8C84F84015E468E6007C7AA3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8C84F84215E468E6007C7AA3 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8C84F84415E468E6007C7AA3 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8C84F84615E468E6007C7AA3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8C84F84715E468E6007C7AA3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8C84F84915E468E6007C7AA3 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8C84F84B15E468E6007C7AA3 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8C84F84E15E468E6007C7AA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		8C84F85115E468E6007C7AA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		8C84F85815E468E7007C7AA3 /* Psych!Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Psych!Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C84F85915E468E7007C7AA3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8C84F86115E468E7007C7AA3 /* Psych!Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Psych!Tests-Info.plist"; sourceTree = "<group>"; };
+		8C84F86315E468E7007C7AA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C84F86515E468E7007C7AA3 /* PsychTestAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychTestAppTests.h; sourceTree = "<group>"; };
+		8C84F86615E468E7007C7AA3 /* PsychTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychTestAppTests.m; sourceTree = "<group>"; };
+		8C84F87415E46ABB007C7AA3 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		8C84F87515E46ABB007C7AA3 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		8C84F87615E46ABB007C7AA3 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		8C84F87C15E4AA6C007C7AA3 /* 09-chat-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "09-chat-2.png"; path = "../../glyphish-icons/PNG icons/09-chat-2.png"; sourceTree = "<group>"; };
+		8C84F88515E54BDD007C7AA3 /* TestWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestWindow.xib; sourceTree = "<group>"; };
+		8C84F88B15E55FC7007C7AA3 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = "../../chalkwork-iphone-1/Chalkwork/Icons/Settings.png"; sourceTree = "<group>"; };
+		8C84F88F15E56168007C7AA3 /* Wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wallpaper.png; sourceTree = "<group>"; };
+		8C84F89115E5627F007C7AA3 /* Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text.png; sourceTree = "<group>"; };
+		8C84F89315E56416007C7AA3 /* Text114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text114.png; sourceTree = "<group>"; };
+		8C84F89515E56421007C7AA3 /* Text114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text114.png; sourceTree = "<group>"; };
+		8C84F89D15E5773B007C7AA3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8CE4CB5D15E58631008D342A /* 162-receipt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "162-receipt.png"; sourceTree = "<group>"; };
+		8CE4CB6015E58643008D342A /* 08-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-chat.png"; sourceTree = "<group>"; };
+		8CE4CB6215E58664008D342A /* 158-wrench-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "158-wrench-2.png"; sourceTree = "<group>"; };
+		8CE4CB6415E5868C008D342A /* Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C84F82615E468E5007C7AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C84F82E15E468E5007C7AA3 /* UIKit.framework in Frameworks */,
+				8C84F83015E468E5007C7AA3 /* Foundation.framework in Frameworks */,
+				8C84F83215E468E5007C7AA3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C84F85415E468E7007C7AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C84F85A15E468E7007C7AA3 /* SenTestingKit.framework in Frameworks */,
+				8C84F85B15E468E7007C7AA3 /* UIKit.framework in Frameworks */,
+				8C84F85C15E468E7007C7AA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C84F81E15E468E5007C7AA3 = {
+			isa = PBXGroup;
+			children = (
+				8C84F89515E56421007C7AA3 /* Text114.png */,
+				8C84F89115E5627F007C7AA3 /* Text.png */,
+				8C84F83315E468E5007C7AA3 /* PsychTestApp */,
+				8C84F85F15E468E7007C7AA3 /* PsychTestAppTests */,
+				8C84F82C15E468E5007C7AA3 /* Frameworks */,
+				8C84F82A15E468E5007C7AA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C84F82A15E468E5007C7AA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C84F82915E468E5007C7AA3 /* Psych!.app */,
+				8C84F85815E468E7007C7AA3 /* Psych!Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C84F82C15E468E5007C7AA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C84F82D15E468E5007C7AA3 /* UIKit.framework */,
+				8C84F82F15E468E5007C7AA3 /* Foundation.framework */,
+				8C84F83115E468E5007C7AA3 /* CoreGraphics.framework */,
+				8C84F85915E468E7007C7AA3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C84F83315E468E5007C7AA3 /* PsychTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				8C84F88B15E55FC7007C7AA3 /* Settings.png */,
+				8CE4CB6415E5868C008D342A /* Text.png */,
+				8C84F89315E56416007C7AA3 /* Text114.png */,
+				8C84F87C15E4AA6C007C7AA3 /* 09-chat-2.png */,
+				8CE4CB5D15E58631008D342A /* 162-receipt.png */,
+				8CE4CB6015E58643008D342A /* 08-chat.png */,
+				8C84F88F15E56168007C7AA3 /* Wallpaper.png */,
+				8C84F83C15E468E6007C7AA3 /* AppDelegate.h */,
+				8C84F83D15E468E6007C7AA3 /* AppDelegate.m */,
+				8CE4CB6215E58664008D342A /* 158-wrench-2.png */,
+				8C84F88515E54BDD007C7AA3 /* TestWindow.xib */,
+				8C84F83F15E468E6007C7AA3 /* FirstViewController.h */,
+				8C84F84015E468E6007C7AA3 /* FirstViewController.m */,
+				8C84F84215E468E6007C7AA3 /* first.png */,
+				8C84F84415E468E6007C7AA3 /* first@2x.png */,
+				8C84F84615E468E6007C7AA3 /* SecondViewController.h */,
+				8C84F84715E468E6007C7AA3 /* SecondViewController.m */,
+				8C84F84915E468E6007C7AA3 /* second.png */,
+				8C84F84B15E468E6007C7AA3 /* second@2x.png */,
+				8C84F84D15E468E6007C7AA3 /* FirstViewController.xib */,
+				8C84F85015E468E6007C7AA3 /* SecondViewController.xib */,
+				8C84F89D15E5773B007C7AA3 /* Constants.h */,
+				8C84F87415E46ABB007C7AA3 /* ThirdViewController.h */,
+				8C84F87515E46ABB007C7AA3 /* ThirdViewController.m */,
+				8C84F87615E46ABB007C7AA3 /* ThirdViewController.xib */,
+				8C84F83415E468E5007C7AA3 /* Supporting Files */,
+			);
+			path = PsychTestApp;
+			sourceTree = "<group>";
+		};
+		8C84F83415E468E5007C7AA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C84F83515E468E5007C7AA3 /* Psych!-Info.plist */,
+				8C84F83615E468E5007C7AA3 /* InfoPlist.strings */,
+				8C84F83915E468E5007C7AA3 /* main.m */,
+				8C84F83B15E468E6007C7AA3 /* Psych!-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C84F85F15E468E7007C7AA3 /* PsychTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C84F86515E468E7007C7AA3 /* PsychTestAppTests.h */,
+				8C84F86615E468E7007C7AA3 /* PsychTestAppTests.m */,
+				8C84F86015E468E7007C7AA3 /* Supporting Files */,
+			);
+			path = PsychTestAppTests;
+			sourceTree = "<group>";
+		};
+		8C84F86015E468E7007C7AA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C84F86115E468E7007C7AA3 /* Psych!Tests-Info.plist */,
+				8C84F86215E468E7007C7AA3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C84F82815E468E5007C7AA3 /* Psych! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C84F86A15E468E7007C7AA3 /* Build configuration list for PBXNativeTarget "Psych!" */;
+			buildPhases = (
+				8C84F82515E468E5007C7AA3 /* Sources */,
+				8C84F82615E468E5007C7AA3 /* Frameworks */,
+				8C84F82715E468E5007C7AA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Psych!";
+			productName = PsychTestApp;
+			productReference = 8C84F82915E468E5007C7AA3 /* Psych!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C84F85715E468E7007C7AA3 /* Psych!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C84F86D15E468E7007C7AA3 /* Build configuration list for PBXNativeTarget "Psych!Tests" */;
+			buildPhases = (
+				8C84F85315E468E7007C7AA3 /* Sources */,
+				8C84F85415E468E7007C7AA3 /* Frameworks */,
+				8C84F85515E468E7007C7AA3 /* Resources */,
+				8C84F85615E468E7007C7AA3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C84F85E15E468E7007C7AA3 /* PBXTargetDependency */,
+			);
+			name = "Psych!Tests";
+			productName = PsychTestAppTests;
+			productReference = 8C84F85815E468E7007C7AA3 /* Psych!Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C84F82015E468E5007C7AA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jacob John";
+			};
+			buildConfigurationList = 8C84F82315E468E5007C7AA3 /* Build configuration list for PBXProject "Psych!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C84F81E15E468E5007C7AA3;
+			productRefGroup = 8C84F82A15E468E5007C7AA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C84F82815E468E5007C7AA3 /* Psych! */,
+				8C84F85715E468E7007C7AA3 /* Psych!Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C84F82715E468E5007C7AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C84F83815E468E5007C7AA3 /* InfoPlist.strings in Resources */,
+				8C84F84315E468E6007C7AA3 /* first.png in Resources */,
+				8C84F84515E468E6007C7AA3 /* first@2x.png in Resources */,
+				8C84F84A15E468E6007C7AA3 /* second.png in Resources */,
+				8C84F84C15E468E6007C7AA3 /* second@2x.png in Resources */,
+				8C84F84F15E468E6007C7AA3 /* FirstViewController.xib in Resources */,
+				8C84F85215E468E6007C7AA3 /* SecondViewController.xib in Resources */,
+				8C84F87815E46ABB007C7AA3 /* ThirdViewController.xib in Resources */,
+				8C84F87E15E4AA6C007C7AA3 /* 09-chat-2.png in Resources */,
+				8C84F88615E54BDE007C7AA3 /* TestWindow.xib in Resources */,
+				8C84F88D15E55FC7007C7AA3 /* Settings.png in Resources */,
+				8C84F89015E56168007C7AA3 /* Wallpaper.png in Resources */,
+				8C84F89215E56280007C7AA3 /* Text.png in Resources */,
+				8C84F89415E56417007C7AA3 /* Text114.png in Resources */,
+				8C84F89615E56421007C7AA3 /* Text114.png in Resources */,
+				8CE4CB5E15E58631008D342A /* 162-receipt.png in Resources */,
+				8CE4CB6115E58643008D342A /* 08-chat.png in Resources */,
+				8CE4CB6315E58664008D342A /* 158-wrench-2.png in Resources */,
+				8CE4CB6515E5868C008D342A /* Text.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C84F85515E468E7007C7AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C84F86415E468E7007C7AA3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C84F85615E468E7007C7AA3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C84F82515E468E5007C7AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C84F83A15E468E5007C7AA3 /* main.m in Sources */,
+				8C84F83E15E468E6007C7AA3 /* AppDelegate.m in Sources */,
+				8C84F84115E468E6007C7AA3 /* FirstViewController.m in Sources */,
+				8C84F84815E468E6007C7AA3 /* SecondViewController.m in Sources */,
+				8C84F87715E46ABB007C7AA3 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C84F85315E468E7007C7AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C84F86715E468E7007C7AA3 /* PsychTestAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C84F85E15E468E7007C7AA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C84F82815E468E5007C7AA3 /* Psych! */;
+			targetProxy = 8C84F85D15E468E7007C7AA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C84F83615E468E5007C7AA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C84F83715E468E5007C7AA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C84F84D15E468E6007C7AA3 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C84F84E15E468E6007C7AA3 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		8C84F85015E468E6007C7AA3 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C84F85115E468E6007C7AA3 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		8C84F86215E468E7007C7AA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C84F86315E468E7007C7AA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C84F86815E468E7007C7AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C84F86915E468E7007C7AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C84F86B15E468E7007C7AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PsychTestApp/Psych!-Prefix.pch";
+				INFOPLIST_FILE = "PsychTestApp/Psych!-Info.plist";
+				PRODUCT_NAME = "Psych!";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C84F86C15E468E7007C7AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PsychTestApp/Psych!-Prefix.pch";
+				INFOPLIST_FILE = "PsychTestApp/Psych!-Info.plist";
+				PRODUCT_NAME = "Psych!";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8C84F86E15E468E7007C7AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PsychTestApp.app/PsychTestApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PsychTestApp/PsychTestApp-Prefix.pch";
+				INFOPLIST_FILE = "PsychTestAppTests/Psych!Tests-Info.plist";
+				PRODUCT_NAME = "Psych!Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8C84F86F15E468E7007C7AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PsychTestApp.app/PsychTestApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PsychTestApp/PsychTestApp-Prefix.pch";
+				INFOPLIST_FILE = "PsychTestAppTests/Psych!Tests-Info.plist";
+				PRODUCT_NAME = "Psych!Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C84F82315E468E5007C7AA3 /* Build configuration list for PBXProject "Psych!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C84F86815E468E7007C7AA3 /* Debug */,
+				8C84F86915E468E7007C7AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C84F86A15E468E7007C7AA3 /* Build configuration list for PBXNativeTarget "Psych!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C84F86B15E468E7007C7AA3 /* Debug */,
+				8C84F86C15E468E7007C7AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C84F86D15E468E7007C7AA3 /* Build configuration list for PBXNativeTarget "Psych!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C84F86E15E468E7007C7AA3 /* Debug */,
+				8C84F86F15E468E7007C7AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C84F82015E468E5007C7AA3 /* Project object */;
+}
